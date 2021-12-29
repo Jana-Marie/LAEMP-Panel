@@ -1312,8 +1312,6 @@ Wire Wire Line
 Connection ~ 8300 1900
 Wire Wire Line
 	8300 1900 8300 1950
-Text GLabel 8300 5550 0    50   Input ~ 0
-DOUT
 Wire Wire Line
 	1800 6950 1800 7600
 Wire Wire Line
@@ -1325,4 +1323,65 @@ Wire Wire Line
 Connection ~ 1800 6950
 Wire Wire Line
 	1800 6950 2000 6950
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 61E2192F
+P 6750 1500
+F 0 "J11" H 6830 1492 50  0000 L CNN
+F 1 "LED_HEX0" H 6830 1401 50  0000 L CNN
+F 2 "otter:PinSocket_1x04_P2.54mm_Vertical_center" H 6750 1500 50  0001 C CNN
+F 3 "~" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1500 6550 1450
+Wire Wire Line
+	6550 1600 6550 1650
+Text GLabel 8300 5550 0    50   Input ~ 0
+DOUT
+Text GLabel 6550 1900 0    50   Input ~ 0
+DOUT
+$Comp
+L power:VBUS #PWR0151
+U 1 1 61E2EE7B
+P 6550 1450
+F 0 "#PWR0151" H 6550 1300 50  0001 C CNN
+F 1 "VBUS" V 6565 1577 50  0000 L CNN
+F 2 "" H 6550 1450 50  0001 C CNN
+F 3 "" H 6550 1450 50  0001 C CNN
+	1    6550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L otter:GND #PWR0152
+U 1 1 61E2EE81
+P 6550 1650
+F 0 "#PWR0152" H 6550 1400 50  0001 C CNN
+F 1 "GND" V 6555 1522 50  0000 R CNN
+F 2 "" H 6550 1650 60  0000 C CNN
+F 3 "" H 6550 1650 60  0000 C CNN
+	1    6550 1650
+	0    1    1    0   
+$EndComp
+Connection ~ 6550 1450
+Wire Wire Line
+	6550 1450 6550 1400
+Connection ~ 6550 1650
+Wire Wire Line
+	6550 1650 6550 1700
+NoConn ~ 6550 2000
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 61E22468
+P 6750 2000
+F 0 "J12" H 6830 1992 50  0000 L CNN
+F 1 "LED_HEX1" H 6830 1901 50  0000 L CNN
+F 2 "otter:PinSocket_1x04_P2.54mm_Vertical_center" H 6750 2000 50  0001 C CNN
+F 3 "~" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 2100
+NoConn ~ 6550 2200
 $EndSCHEMATC
