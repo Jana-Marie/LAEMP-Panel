@@ -378,7 +378,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hex_base_panel.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -396,7 +396,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
@@ -423,7 +423,7 @@
   },
   "sheets": [
     [
-      "41acfe41-fac7-432a-a7a3-946566e2d504",
+      "bfa445ac-246e-4db8-a60c-beb85501bf65",
       ""
     ]
   ],
