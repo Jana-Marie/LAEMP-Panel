@@ -4,3 +4,5 @@ LÄMP is a Zigbee controllable RGBY + W spot, which can be soldered at home and 
 
 ![](1.jpeg)
 ![](2.jpeg) 
+
+I still need to release the fw, if you need/want it right away, ping me! It is no secret, just messy :D
