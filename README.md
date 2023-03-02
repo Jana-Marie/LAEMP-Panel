@@ -6,10 +6,10 @@ LAEMP-Panel is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can
   <tbody>
     <tr>
       <td>
-        <img src="images/1.jpeg"/>
+        <img src="1.jpeg"/>
       </td>
       <td>
-        <img src="images/2.jpg"/>
+        <img src="2.jpeg"/>
       </td>
     </tr>
   </tbody>
