@@ -1,6 +1,6 @@
-# LAEMP
+# LAEMP-Panel
 
-LÄMP is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can be soldered at home and is easy to assemble. The extra yellow channel gives a much wider dynamic.
+LAEMP-Panel is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can be soldered at home and is easy to assemble. The extra yellow channel gives a much wider dynamic.
 
 <table>
   <tbody>
@@ -14,8 +14,6 @@ LÄMP is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can be so
     </tr>
   </tbody>
 </table>
-
-I still need to release the fw, if you need/want it right away, ping me! It is no secret, just messy :D
 
 ### Sister project
 
