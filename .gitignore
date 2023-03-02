@@ -1,0 +1,10 @@
+# kicad
+*-backups
+gerber
+fp-info-cache
+*-bak
+*.step
+*.stp
+bom
+sym-lib-table
+*cache.lib
