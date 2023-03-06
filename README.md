@@ -1,6 +1,6 @@
 # LAEMP-Panel
 
-LAEMP-Panel is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can be soldered at home and is easy to assemble. The extra yellow channel gives a much wider dynamic.
+LAEMP-Panel is a Zigbee controllable (e.g. philips hue) RGBY + W spot, which can be soldered at home and is easy to assemble. The extra yellow channel gives a much wider dynamic. This is archived by alternating CW/WW/A (Cold-, Warm-White, Amber) and RGB LEDs. LAEMP-Panel can be mounted on mini-tripods and is powered via 5V USB Type-C. A ZigBee bridge (e.g. Philips Hue) is needed for control.
 
 <table>
   <tbody>
@@ -31,7 +31,11 @@ This is a simple Arduino project and can be flashed via Arduino (initially built
 
 Please refer to the awesome works of [PeeVeeOne](https://peeveeone.com/zll-tldr/) to flash `Light_ColorLight_JN5168_RGB` onto the E75-2G4M20S module.
 
-## License
+## Todo
+
+ - [ ] Profile CRI
+   - [ ] Increase CRI by selectively adding colors to WW/CW (i.e. green)
+ - [ ] Update Baseboard to v2
 
 ## License
 
